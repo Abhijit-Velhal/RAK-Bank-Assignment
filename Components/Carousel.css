@@ -1,0 +1,19 @@
+.carousel {
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .carousel-content {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-step {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
